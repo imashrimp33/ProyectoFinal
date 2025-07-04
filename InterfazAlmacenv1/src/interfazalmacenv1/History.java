@@ -4,11 +4,12 @@ package interfazalmacenv1;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.*;
-public class Storage {
+
+
+public class History {
     JFrame frame;
     JLabel label1;
     JButton btn1;
-    
     public void iniciar(){
         //marco
         frame = new JFrame("VentanadeAlmacen");
@@ -17,7 +18,7 @@ public class Storage {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
         //etiquetas
-        label1 = new JLabel("Bienvenido al almacen");
+        label1 = new JLabel("Bienvenido al Buscar");
         label1.setBounds(85, 90, 160, 40);
         frame.add(label1);
         
